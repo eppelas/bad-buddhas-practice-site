@@ -1,5 +1,5 @@
 
-const CACHE_NAME = "breath-practice-ms0925vt";
+const CACHE_NAME = "breath-practice-ms09h5pf";
 const CACHE_PREFIX = 'breath-practice-';
 const PRECACHE_FILES = [
   "",
@@ -9,8 +9,8 @@ const PRECACHE_FILES = [
   "icons/icon-192-v3.png",
   "icons/icon-512-v3.png",
   "icons/icon-512-maskable-v3.png",
-  "assets/index-BUA75YPe.css",
-  "assets/index-CnYs0bJI.js",
+  "assets/index-C0us5aSa.css",
+  "assets/index-DXyTysO5.js",
   "assets/three.module-BTt32e3U.js"
 ];
 const AUDIO_FILES = [
