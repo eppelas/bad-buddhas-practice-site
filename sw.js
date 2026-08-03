@@ -1,5 +1,5 @@
 
-const CACHE_NAME = "breath-practice-ms09q2xo";
+const CACHE_NAME = "breath-practice-msd739bh";
 const CACHE_PREFIX = 'breath-practice-';
 const PRECACHE_FILES = [
   "",
@@ -9,13 +9,18 @@ const PRECACHE_FILES = [
   "icons/icon-192-v3.png",
   "icons/icon-512-v3.png",
   "icons/icon-512-maskable-v3.png",
-  "assets/index-DiqeRCgU.css",
-  "assets/index-BpjIWPw6.js",
+  "assets/TTFirsNeue-DemiBold-CLvm1JGI.woff2",
+  "assets/TTFirsNeue-Light-CPjyCkyf.woff2",
+  "assets/TTFirsNeue-Medium-BGl_Oe5f.woff2",
+  "assets/TTFirsNeue-Italic-DCyjmuz3.woff2",
+  "assets/index-CnF_-Ert.css",
+  "assets/index-ClJkSyid.js",
   "assets/three.module-BTt32e3U.js"
 ];
 const AUDIO_FILES = [
   "audio/practice-01.m4a",
-  "audio/practice-02.m4a"
+  "audio/practice-02.m4a",
+  "audio/practice-03.mp3"
 ];
 const scopedUrl = (path) => new URL(path, self.registration.scope).href;
 
@@ -50,7 +55,7 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('message', (event) => {
   if (event.data?.type !== 'CACHE_BREATH_AUDIO') return;
   event.waitUntil((async () => {
-    if (AUDIO_FILES.length !== 2) {
+    if (AUDIO_FILES.length !== 3) {
       await notify({ type: 'BREATH_AUDIO_ERROR', reason: 'missing-audio' });
       return;
     }
