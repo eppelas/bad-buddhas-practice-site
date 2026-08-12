@@ -1,5 +1,5 @@
 
-const CACHE_NAME = "breath-practice-msqdfff7";
+const CACHE_NAME = "breath-practice-msqip9a9";
 const CACHE_PREFIX = 'breath-practice-';
 const PRECACHE_FILES = [
   "",
@@ -9,13 +9,12 @@ const PRECACHE_FILES = [
   "icons/icon-192-v3.png",
   "icons/icon-512-v3.png",
   "icons/icon-512-maskable-v3.png",
-  "assets/TTFirsNeue-Medium-BGl_Oe5f.woff2",
   "assets/TTFirsNeue-Light-CPjyCkyf.woff2",
-  "assets/TTFirsNeue-DemiBold-CLvm1JGI.woff2",
+  "assets/TTFirsNeue-Medium-BGl_Oe5f.woff2",
   "assets/TTFirsNeue-Italic-DCyjmuz3.woff2",
-  "assets/bb-wordmark-1x7xhQ-Y.svg",
-  "assets/index-BDcEoFCM.css",
-  "assets/index-DGA5Ww2O.js",
+  "assets/TTFirsNeue-DemiBold-CLvm1JGI.woff2",
+  "assets/index-By-YfSGH.css",
+  "assets/index-RXQ2MZmJ.js",
   "assets/three.module-BTt32e3U.js"
 ];
 const AUDIO_FILES = [
